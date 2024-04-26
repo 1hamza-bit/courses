@@ -9,32 +9,32 @@ function Header() {
   const [open, setopen] = useState(false);
   return (
     <>
-    <div className="bg-black text-white flex justify-between ">
+    <div className="bg-[#1E1E1E] text-white flex justify-between ">
       <div className="flex items-center px-16 py-3">
         <div className="mr-4 flex">
-          <p className="text-lg font-semibold mr-2">Phone:</p>
-          <p className="text-lg font-semibold">+1234567890</p>
+          <p className="font-semibold mr-2">Phone:</p>
+          <p className="font-semibold">+92 312 4128913</p>
         </div>
         <div className="flex items-center ml-4">
-          <p className="text-lg font-semibold mr-2">Email:</p>
-          <p className="text-lg font-semibold">example@example.com</p>
+          <p className="font-semibold mr-2">Email:</p>
+          <p className="font-semibold">info@meetahsan.com</p>
         </div>
       </div>
       <div className="flex items-center">
-        <div className="bg-blue-500 text-white py-4 px-32 transform skew-x-[50deg] ml-auto -mr-8">
+        <div className="bg-[#0193DE] text-white py-4 px-32 transform skew-x-[50deg] ml-auto -mr-8">
           <p className='-skew-x-[50deg]'>+9876543210</p>
         </div>
       </div>
     </div>
-    <header className='px-[3vw] lg:px-[3vw] py-6 flex items-center justify-between z-[200]'>
+    <header className='px-[3vw] lg:px-[3vw] py-5 flex items-center justify-between z-[200]'>
       <div className="flex items-center space-x-3">
-        <img className='h-14' src="ld.png" alt="Streamapps logo" />
+        <img className='h-20' src='logo.svg'/>
       </div>
       <nav className="hidden lg:flex items-center space-x-14">
-        <Link className='text-neutral-600 hover:text-neutral-900 font-medium text-lg hvr-underline-from-left py-2.5' href={'/'}>Home</Link>
-        <Link className='text-neutral-600 hover:text-neutral-900 font-medium text-lg hvr-underline-from-left py-2.5' href={'/'}>About Us</Link>
-        <Link className='text-neutral-600 hover:text-neutral-900 font-medium text-lg hvr-underline-from-left py-2.5' href={'/features'}>Features</Link>
-        <Link className='text-neutral-600 hover:text-neutral-900 font-medium text-lg hvr-underline-from-left py-2.5' href={'/contact'}>Contact Us</Link>
+        <Link className='text-[#707F86] font-bold hover:text-neutral-900 uppercase text-lg hvr-underline-from-left py-2.5' href={'/'}>Home</Link>
+        <Link className='text-[#707F86] font-bold hover:text-neutral-900 uppercase text-lg hvr-underline-from-left py-2.5' href={'/'}>Events</Link>
+        <Link className='text-[#707F86] font-bold hover:text-neutral-900 uppercase text-lg hvr-underline-from-left py-2.5' href={'/features'}>Workshop</Link>
+        <Link className='text-[#707F86] font-bold hover:text-neutral-900 uppercase text-lg hvr-underline-from-left py-2.5' href={'/contact'}>Gallery</Link>
       </nav> 
       <div className="hidden lg:flex">
         <button className='bg-button text-white px-8 py-3 rounded-full font-semibold'>Contact Us</button>
