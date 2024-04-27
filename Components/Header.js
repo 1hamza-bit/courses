@@ -3,21 +3,22 @@ import Link from 'next/link';
 import React, { useState } from 'react';
 import Hamburger from 'hamburger-react'
 import { AnimatePresence, motion } from 'framer-motion';
+import { Mail, Phone } from 'lucide-react';
 
 function Header() {
 
   const [open, setopen] = useState(false);
   return (
     <>
-    <div className="bg-[#1E1E1E] text-white flex justify-between ">
+    <div className="bg-[#1E1E1E] text-white flex justify-between !w-full ">
       <div className="flex items-center px-16 py-3">
         <div className="mr-4 flex">
-          <p className="font-semibold mr-2">Phone:</p>
-          <p className="font-semibold">+92 312 4128913</p>
+        <Phone color='white' size={24}/>
+          <p className="pl-2 font-semibold">+92 312 4128913</p>
         </div>
         <div className="flex items-center ml-4">
-          <p className="font-semibold mr-2">Email:</p>
-          <p className="font-semibold">info@meetahsan.com</p>
+        <Mail color='white' size={24}/>
+          <p className="pl-2 font-semibold">info@meetahsan.com</p>
         </div>
       </div>
       <div className="flex items-center">
@@ -37,7 +38,7 @@ function Header() {
         <Link className='text-[#707F86] font-bold hover:text-neutral-900 uppercase text-lg hvr-underline-from-left py-2.5' href={'/contact'}>Gallery</Link>
       </nav> 
       <div className="hidden lg:flex">
-        <button className='bg-button text-white px-8 py-3 rounded-full font-semibold'>Contact Us</button>
+        <button className='bg-button bg-[#0193DE] text-white px-8 py-3 rounded-md font-semibold'>Admission</button>
       </div>
       <div onClick={() => setopen(!open)} className="flex lg:hidden z-[120]">
         <Hamburger color='#171717' size={26}/>
