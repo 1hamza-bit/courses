@@ -36,7 +36,7 @@ function Footer() {
         </div>
         <div className='flex lg:justify-center'>
           <ul className='m-0 p-0 space-y-4'>
-            <li className='text-white font-bold text-lg lg:text-2xl font-semibold'>Quick Links</li>
+            <li className='text-white text-lg lg:text-2xl font-semibold'>Quick Links</li>
             <li>
               <Link className='text-white hover:text-neutral-900  lg:text-lg' href={'/'}>Home</Link>
             </li>
@@ -53,7 +53,7 @@ function Footer() {
         </div>
         <div className='flex lg:justify-center'>
           <ul className='m-0 p-0 space-y-4'>
-            <li className='text-white font-bold text-lg lg:text-2xl font-semibold'>Services</li>
+            <li className='text-white text-lg lg:text-2xl font-semibold'>Services</li>
             <li>
               <Link className='text-white hover:text-neutral-900  lg:text-lg' href={'/'}>Flutter Mobile App</Link>
             </li>
@@ -70,7 +70,7 @@ function Footer() {
         </div>
         <div className='flex lg:justify-end'>
           <div>
-            <h4 className='text-white font-bold text-lg lg:text-2xl font-semibold'>Contact Us</h4>
+            <h4 className='text-white text-lg lg:text-2xl font-semibold'>Contact Us</h4>
             {/* <p className='mt-1 text-white lg:text-lg lg:leading-relaxed leading-relaxed font-medium'>
               Signup to newsletter for latest update
             </p>
@@ -93,7 +93,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="mt-12 border-t border-white  lg:grid-cols-2 flex justify-left  lg:justify-center">
+      <div className="mt-12 border-t border-white lg:grid-cols-2 flex justify-left  lg:justify-center">
           <div>
             <p className='mt-8 text-white lg:text-lg lg:leading-relaxed leading-relaxed font-medium'>
               ©  2024 Meet Ahsan | All Right Reserved
