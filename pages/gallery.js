@@ -1,9 +1,9 @@
 import Header from "@/Components/Layout/Header";
 import Footer from "@/Components/Layout/Footer";
-import Workshops from "@/Components/Workshop";
 import { Poppins } from "next/font/google";
 import Layout from "@/Components/Layout/Index";
 import BlueHero from "@/Components/reUsable/blueHero";
+import GalleryPage from "@/Components/Gallery";
 
 
 const poppins = Poppins({
@@ -11,12 +11,12 @@ const poppins = Poppins({
   subsets: ['latin'],
 });;
 
-export default function Workshop() {
+export default function Gallery() {
   return (
     <div className={poppins.className}>
      <Layout>
-      <BlueHero name={"Workshop"} />
-      <Workshops />
+      <BlueHero name={"Gallery"} />
+      <GalleryPage />
       </Layout>
     </div>
   );
