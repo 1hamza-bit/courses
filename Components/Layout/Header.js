@@ -33,9 +33,9 @@ function Header() {
       </div>
       <nav className="hidden lg:flex items-center space-x-14">
         <Link className='text-[#707F86] font-bold hover:text-neutral-900 uppercase text-lg hvr-underline-from-left py-2.5' href={'/'}>Home</Link>
-        <Link className='text-[#707F86] font-bold hover:text-neutral-900 uppercase text-lg hvr-underline-from-left py-2.5' href={'/'}>Events</Link>
-        <Link className='text-[#707F86] font-bold hover:text-neutral-900 uppercase text-lg hvr-underline-from-left py-2.5' href={'/features'}>Workshop</Link>
-        <Link className='text-[#707F86] font-bold hover:text-neutral-900 uppercase text-lg hvr-underline-from-left py-2.5' href={'/contact'}>Gallery</Link>
+        <Link className='text-[#707F86] font-bold hover:text-neutral-900 uppercase text-lg hvr-underline-from-left py-2.5' href={'/events'}>Events</Link>
+        <Link className='text-[#707F86] font-bold hover:text-neutral-900 uppercase text-lg hvr-underline-from-left py-2.5' href={'/workshop'}>Workshop</Link>
+        <Link className='text-[#707F86] font-bold hover:text-neutral-900 uppercase text-lg hvr-underline-from-left py-2.5' href={'/gallery'}>Gallery</Link>
       </nav> 
       <div className="hidden lg:flex">
         <button className='bg-button bg-[#0193DE] text-white px-8 py-3 rounded-md font-semibold'>Admission</button>
