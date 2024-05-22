@@ -1,7 +1,7 @@
 
 import React from 'react'
 
-export default function Workshops() {
+export default function Event() {
     return (
         <div className='container mx-auto mt-20 flex justify-center flex-col items-center'>
             <div className="flex bg-white shadow rounded-md p-6 w-3/4">

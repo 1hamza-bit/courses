@@ -34,7 +34,7 @@ function Footer() {
             <Linkedin size={20}/>
           </div> */}
         </div>
-        <div className='flex lg:justify-center'>
+        <div className='flex justify-center sm:text-center'>
           <ul className='m-0 p-0 space-y-4'>
             <li className='text-white text-lg lg:text-2xl font-semibold'>Quick Links</li>
             <li>
@@ -51,7 +51,7 @@ function Footer() {
             </li>
           </ul>
         </div>
-        <div className='flex lg:justify-center'>
+        <div className='flex justify-center sm:text-center'>
           <ul className='m-0 p-0 space-y-4'>
             <li className='text-white text-lg lg:text-2xl font-semibold'>Services</li>
             <li>
@@ -68,7 +68,7 @@ function Footer() {
             </li>
           </ul>
         </div>
-        <div className='flex lg:justify-end'>
+        <div className='flex lg:justify-end sm:justify-center sm:text-center'>
           <div>
             <h4 className='text-white text-lg lg:text-2xl font-semibold'>Contact Us</h4>
             {/* <p className='mt-1 text-white lg:text-lg lg:leading-relaxed leading-relaxed font-medium'>

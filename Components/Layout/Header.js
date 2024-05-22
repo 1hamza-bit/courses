@@ -10,7 +10,7 @@ function Header() {
   const [open, setopen] = useState(false);
   return (
     <>
-    <div className="bg-[#1E1E1E] text-white flex justify-between !w-full ">
+    <div className="bg-[#1E1E1E] text-white flex justify-between !w-screen overflow-hidden ">
       <div className="flex items-center px-16 py-3">
         <div className="mr-4 flex">
         <Phone color='white' size={24}/>
