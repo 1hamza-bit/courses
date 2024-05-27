@@ -4,7 +4,7 @@ import React from 'react'
 export default function Event() {
     return (
         <div className='container mx-auto mt-20 flex justify-center flex-col items-center'>
-            <div className="flex bg-white shadow rounded-md p-6 w-3/4">
+            <div className="flex bg-white shadow rounded-md p-8 w-3/4">
                 {/* Company logo */}
                 <div className="w-2/6 mr-6">
                     <img src={"https://t3.ftcdn.net/jpg/05/79/48/52/360_F_579485255_hzHox0stuQmBx5QViwnQqQjk7RD2AJza.jpg"} alt="Company Logo" className="w-full h-auto rounded-md" />
