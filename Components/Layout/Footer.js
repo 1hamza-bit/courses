@@ -8,7 +8,7 @@ function Footer() {
     <div className='flex justify-center  mt-40'>
       <div className=' rounded-md w-3/4 shadow-emerald-500 bg-white flex flex-col items-center justify-center py-8 -mb-14 '>
       <h2 className='text-[30px] font-bold'>Join Our Newsletter</h2>
-      <div className="flex w-4/5  items-center mt-4 ">
+      <div className="flex w-100  sm:w-4/5 lg:w-4/5  items-center mt-4 ">
               <input type="text" placeholder='Sign up for newsletter' className='flex-1 bg-gray-100 p-3 outline-none text-neutral-800' />
               <button className='bg-button bg-[#0193DE] text-white px-8 py-3 rounded-md font-semibold'>Subscribe</button>
             </div> 
